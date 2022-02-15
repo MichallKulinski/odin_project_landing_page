@@ -159,7 +159,15 @@ body {
 .singup-text p {
     font-size: 18px;
 }
-
-
+ 
+/*Footer*/
+.footer {
+    background-color:#1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
 
 
