@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -112,8 +115,51 @@ body {
     font-weight: 700;
     text-align: right;
 }
+
+/*Singup*/
+.singup-container {
+    display: flex;
+    justify-content: center;
+}
 .singup {
     background-color: #3882F6;
+    color: #F9FAF8;
     margin: 100px 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    width: 1000px;
+    height: 150px;
+    
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    
 }
+.singup button {
+    font-size: 16px;
+    font-weight: 700;
+    color: #E5E7EB;
+    width: 100px;
+    height: 35px;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+}
+.singup-text h1,
+.singup-text p{
+    margin: 0;
+    padding: 0;
+}
+.singup-text h1 {
+    font-size: 22px;
+}
+.singup-text p {
+    font-size: 18px;
+}
+
+
+
 
