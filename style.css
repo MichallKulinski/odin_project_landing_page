@@ -38,16 +38,34 @@ body {
 /*Front*/
 .front {
     background-color: #1F2937;
-    padding: 0px;
-    margin: 0px;
-    display: flex;
     color: #E5E7EB;
-    padding: 10px 100px 10px 100px;
-    
+    margin: 0px;
+    padding: 100px 100px 100px 100px;
+    display: flex;   
 }
 .front-left {
     width: 50%; 
 }
 .front-right {
+    background-color: grey;  
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    width: 400px;
+}
+.front button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+    height: 35px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+}
 
+/*Info*/
+.info {
+   text-align: center;
 }
